@@ -22,8 +22,7 @@
     5000, //API
     8000, //SPA App
   ],
-
   "shutdownAction": "stopCompose",
-  "postCreateCommand": "npm run init",
-  "remoteUser": "node"
+  "postStartCommand": "npm run init",
+  "waitFor": "postStartCommand",
 }
