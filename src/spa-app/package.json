@@ -13,8 +13,8 @@
     "url": "git+https://github.com/auth0-training/labs-node-oidc-auth-code-with-pkce-trace.git"
   },
   "scripts": {
-    "dev": "node_modules/.bin/parcel index.html -p $npm_package_config_spa_app_port",
-    "build": "node_modules/.bin/parcel build index.html -d public --public-url ./",
+    "dev": "parcel index.html -p $npm_package_config_spa_app_port",
+    "build": "parcel build index.html -d public --public-url ./",
     "clean": "rm -rf .cache && rm -rf dist"
   },
   "config": {
