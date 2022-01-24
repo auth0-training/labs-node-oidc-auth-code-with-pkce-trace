@@ -19,7 +19,7 @@
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
-    5000, //API
+    35500, //API
     8000, //SPA App
   ],
   "shutdownAction": "stopCompose",

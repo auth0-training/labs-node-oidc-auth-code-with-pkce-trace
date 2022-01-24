@@ -23,7 +23,7 @@
       "env": {
         "ISSUER_BASE_URL": "$tenant_base_url",
         "AUDIENCE": "$identifier",
-        "PORT": 5000
+        "PORT": 35500
       }
     }
   ]
