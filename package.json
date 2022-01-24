@@ -1,7 +1,7 @@
 {
   "name": "lab-node-oidc-auth-code-with-pkce-trace",
-  "version": "1.1.0",
-  "description": "An auth0 training lab template",
+  "version": "1.1.1",
+  "description": "A set of example applications for that rely on the Auth0 VSCode Extension.",
   "license": "MIT",
   "author": "Auth0",
   "bugs": {
