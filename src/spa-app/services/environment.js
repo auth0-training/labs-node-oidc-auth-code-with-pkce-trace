@@ -5,7 +5,7 @@
 */
 (function (window) {
   let API_URL = process.env.API_URL || "http://localhost:35500";
-  let APP_URL = "http://localhost:8000";
+  let APP_URL = "http://localhost:38500";
   const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN;
   const CLIENT_ID = process.env.CLIENT_ID;
   const VERCEL_URL = process.env.VERCEL_URL;
