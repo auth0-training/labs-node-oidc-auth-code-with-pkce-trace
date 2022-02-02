@@ -19,8 +19,8 @@
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
-    5000, //API
-    8000, //SPA App
+    35500, //API
+    38500, //SPA App
   ],
   "shutdownAction": "stopCompose",
   "postStartCommand": "npm run init",
