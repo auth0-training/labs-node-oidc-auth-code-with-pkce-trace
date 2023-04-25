@@ -45,8 +45,10 @@ const Navbar = {
     document.getElementById("log-out").addEventListener("click", (e) => {
       e.preventDefault();
       window.auth0Client.logout({
-        returnTo: window.env.APP_URL,
-       });
+        logoutParams: {
+          returnTo: window.env.APP_URL,
+          },
+      });
     });
   },
 };
