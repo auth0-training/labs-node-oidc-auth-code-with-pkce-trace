@@ -3,13 +3,13 @@
   "title": "1: Perform an Auth Code with PKCE Network Trace",
   "steps": [
     {
-      "file": "README.md",
+      "file": "",
       "line": 1,
       "title": "What you'll do",
       "description": "## Here's what you'll do:\n\nIn this lab, you will explore the relevant network traces of the authentication process used in Single Page Application lab."
     },
     {
-      "file": "README.md",
+      "file": "",
       "line": 1,
       "title": "Start the Included Application",
       "description": "## Start the Included Application:\n\nWe've included the SPA application in this lab.\n\n1. #### Launch the _Lab: SPA and Lab: API_:\n    1. #### Click [here](command:workbench.action.debug.start) to deploy the _Lab: SPA and Lab: API_.\n        Give them a moment to deploy. You can view the progress in the debug panel.\n\n    1. #### Ensure the ports are public so that the SPA app and API can communicate. Click the ports tab below, then right click each endpoint, and change the port visibility to public. \n    \n        ![](https://cdn.auth0.com/website/auth0/labs/ilt/public-ports.gif)\n\n    1. #### Click [here](command:auth0.lab.openEndpointByName?[\"Lab: SPA\"]) to open the app in your browser.\n\n    1. #### Ensure that you're logged out of the app.\n\n    1.  #### If logged in, click the _Logout_ button.\n\n        "
@@ -41,7 +41,7 @@
       "description": "## Decode Your Token\n\n1. #### Go to [jwt.io](https://jwt.io/) and paste the ID token copied from the last step into the text area on the left. \n   Notice that as soon as you paste it, the contents of the text area on the right are updated. This is because the site decodes your ID token and displays its contents (claims) in that panel.\n\n  ![jwt.io](https://cdn.auth0.com/website/a0fun/v2/trace06-jwt.png)  \n  \n  **Note:** About the token structure:  \n  * The token structure: consists of the header (information about the token), the payload (the token’s claims and user profile information), and the signature.\n  * The claim `iss` is  the *issuer* of the token. It denotes who created and signed it. The value should match your Auth0 Domain URI, prefixed by `https://`.\n  * The claim `sub` is the *subject* of the token. It denotes to whom the token refers. In our case, the value matches the ID of the Auth0 user.\n  * The claim `aud` is the *audience* of the token. It denotes for which app the token is intended. In our case, this matches the Client ID of the application that made the authentication request.\n  * The claim `iat` shows *when the token was issued* (seconds since Unix epoch) and can be used to determine the token’s age.\n\n  The claim `exp` shows when the token *expires* (seconds since Unix epoch).\n\n  Congrats! You've performed a Network Trace!"
     },
     {
-      "file": "README.md",
+      "file": "",
       "line": 1,
       "title": "Recap",
       "description": "## In this lab you:\n\n*   Performed network traces to identify the behind the scenes authentication details behind your Single Page Application."
