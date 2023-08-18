@@ -4,13 +4,13 @@ clients: # Add other client settings https://auth0.com/docs/api/management/v2#!/
     app_type: spa
     allowed_logout_urls:
       - http://localhost:38500
-      - https://##CODESPACE_NAME##-38500.app.github.dev
+      - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##
     callbacks:
       - http://localhost:38500
-      - https://##CODESPACE_NAME##-38500.app.github.dev/callback
+      - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##/callback
     web_origins:
       - http://localhost:38500
-      - https://##CODESPACE_NAME##-38500.app.github.dev
+      - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##
     token_endpoint_auth_method: none
     oidc_conformant: true
     grant_types:
