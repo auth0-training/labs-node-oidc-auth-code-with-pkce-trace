@@ -7,7 +7,7 @@ clients: # Add other client settings https://auth0.com/docs/api/management/v2#!/
       - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##
     callbacks:
       - http://localhost:38500
-      - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##/callback
+      - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##
     web_origins:
       - http://localhost:38500
       - https://##CODESPACE_NAME##-38500.##GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN##
