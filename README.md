@@ -1,6 +1,6 @@
 # Lab: Trace the OAuth 2.0 Authorization Code Flow with PKCE Using Auth0
 
-In this [Okta Training](https://www.okta.com/training/) hands-on lab learners will practice performing a network trace of the authentication process.
+In this [Okta Training](https://learning.okta.com/) hands-on lab learners will practice performing a network trace of the authentication process.
 
 
 --- 
